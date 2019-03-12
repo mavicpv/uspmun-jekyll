@@ -1,0 +1,14 @@
+- id: "usp"
+  nome: "USP"
+  link: "http://www5.usp.br/"
+  image_src: "/assets/images/patro-usp.png"
+
+- id: "le_monde"
+  nome: "Le Monde Diplomatique"
+  link: "https://diplomatique.org.br/"
+  image_src: "/assets/images/patro-le_monde.png"
+
+- id: "gremio_politecnico"
+  nome: "Grêmio Politécnico"
+  link: "http://www.gremiopolitecnico.com.br/"
+  image_src: "/assets/images/patro-gremio_politecnico.png"

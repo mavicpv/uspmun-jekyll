@@ -1,0 +1,49 @@
+- id: "amun"
+  nome: "AMUN"
+  link: "https://www.facebook.com/amun.brazil"
+  image_src: "/assets/images/parceiro-amun_transp.png"
+
+- id: "famun"
+  nome: "FAMUN"
+  link: "http://www.wimun.org/copia-registration-2017"
+  image_src: "/assets/images/parceiro-famun.png"
+  
+- id: "gomun"
+  nome: "GOMUN"
+  link: "http://www.gomun.com.br"
+  image_src: "/assets/images/parceiro-gomun.png"
+
+- id: "ibmrmun"
+  nome: "IBMRMUN"
+  link: "https://www.facebook.com/IBMRMUN/"
+  image_src: "/assets/images/parceiro-ibmrmun.png"
+
+- id: "sinpuc"
+  nome: "SINPUC"
+  link: "https://www.facebook.com/SINPUC/"
+  image_src: "/assets/images/parceiro-sinpuc.png"
+  
+- id: "spmun"
+  nome: "SPMUN"
+  link: "https://www.spmun.com"
+  image_src: "/assets/images/parceiro-spmun.png"
+
+- id: "siur"
+  nome: "SIUR"
+  link: "http://www.siurufrrj.com.br"
+  image_src: "/assets/images/parceiro-siur.png"
+
+- id: "temas"
+  nome: "TEMAS"
+  link: "http://temasmg.com"
+  image_src: "/assets/images/parceiro-temas.png"
+
+- id: "ufrgsmun"
+  nome: "UFRGSMUN"
+  link: "https://www.ufrgs.br/ufrgsmun/2018/web/"
+  image_src: "/assets/images/parceiro-ufrgsmun.png"
+
+- id: "unicrio"
+  nome: "UNIC Rio"
+  link: "http://unicrio.org.br"
+  image_src: "/assets/images/parceiro-unicrio.png"

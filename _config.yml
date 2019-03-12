@@ -1,0 +1,31 @@
+name: My Jekyll Website
+title: USPMUN
+
+url: https://uspmun.com.br
+
+collections:
+  authors:
+    output: true
+  comites:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "comites"
+    values:
+      layout: "comite"
+  - scope:
+      path: ""
+    values:
+      layout: "title"

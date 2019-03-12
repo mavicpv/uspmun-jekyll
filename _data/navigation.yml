@@ -1,0 +1,12 @@
+- name: Sobre
+  link: /sobre.html
+- name: Edição
+  link: /edicao.html
+- name: Comitês
+  link: /comites.html
+- name: Inscrições
+  link: /inscricoes.html
+- name: Parcerias
+  link: /parcerias.html
+- name: FAQ
+  link: /duvidas.html

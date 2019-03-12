@@ -1,0 +1,19 @@
+---
+title: Comitês
+---
+
+<section>
+    <div class="container">
+        <div class="row">
+            {% for comite in site.data.comites %}
+                <div class="col-md-6 comite">
+                    <a href="{{ comite.link }}" class="comiteButton">
+                        <img class="img-fluid center comite-img" src="{{ comite.img_src }}" alt="comitee banner">
+                        <h3 class="titulo-comite">{{ comite.nome }}</h3>
+                        <p class="comite-descricao">{{ comite.resumo }}</p>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

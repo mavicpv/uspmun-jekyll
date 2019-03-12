@@ -1,0 +1,158 @@
+---
+title: Inscrições
+inscricao: late
+---
+
+{% assign inscricao = site.data.inscricoes | where: 'id', page.inscricao | first %}
+
+<section>
+    <div class="container">
+        <h3 class="titulo-texto">DATAS DAS INSCRIÇÕES</h3>
+
+        <ul>
+            <li><strong>(Esgotada)</strong> Inscrição Promocional: 29/07 - 31/07 </li>
+            <li><strong>(Esgotada)</strong> Inscrição Regular: 01/08 - 05/09 </li>
+            <li>Inscrição de Espera: <strong>06/09 - 01/10</strong> </li>
+        </ul>
+
+        <p>
+            <strong>Obs:</strong> O período de inscrição de lista de espera
+            pode ter seu encerramento adiantado caso as vagas sejam preenchidas
+            antes do período final.
+        </p>
+    </div>
+</section>
+
+<hr>
+
+<section>
+    <div class="container">
+        <h3 class="titulo-texto">MODALIDADES DE INSCRIÇÃO</h3>
+
+        <h4 class="titulo-texto">Individual</h4>
+        <p>
+            A modalidade individual é para a delegação inscrita por somente uma
+            pessoa. Este não poderá se inscrever em comitês de dupla, ou seja,
+            o UNSC e PRB.
+        </p>
+        <ul style="user-select: none">
+            <li><strong>(Esgotada)</strong> Inscrição Promocional: R$ 50,00 </li>
+            <li><strong>(Esgotada)</strong> Inscrição Regular: R$ 65,00 </li>
+            <li><strong>Inscrição de Espera:</strong> R$ 70,00 </li>
+        </ul>
+
+        <h4 class="titulo-texto">Delegação</h4>
+        <p>
+            A inscrição por delegação é qualquer grupo de 2 ou + delegados que
+            se inscrevam em quaisquer comitês. Uma inscrição para o PRB e/ou
+            UNSC, por exemplo, é necessariamente uma inscrição por delegação.
+        </p>
+        <ul style="user-select: none">
+            <li><strong>(Esgotada)</strong> Inscrição Promocional: R$ 50,00 </li>
+            <li><strong>(Esgotada)</strong> Inscrição Regular: R$ 60,00 </li>
+            <li><strong>Inscrição de Espera:</strong> R$ 70,00 </li>
+        </ul>
+
+        <h4 class="titulo-texto">Delegação Completa</h4>
+        <p>
+            Uma delegação completa é uma delegação que tem delegados inscritos
+            em todos os comitês da USPMUN como primeira opção. Portanto, e uma
+            delegação com oito delegados (quatro comitês individuais e dois em
+            dupla) ou mais, que preenche todo o quadro de comitês. Duas
+            observações importantes: a delegação pode ter mais de oito
+            delegados e, portanto, repetir opções de comitê e somente a
+            primeira opção de comitê precisa ser distinta entre os delegados.
+        </p>
+        <ul style="user-select: none">
+            <li><strong>(Esgotada)</strong> Inscrição Promocional: R$ 50,00 </li>
+            <li><strong>(Esgotada)</strong> Inscrição Regular: R$ 50,00 </li>
+            <li><strong>Inscrição de Espera:</strong> R$ 70,00 </li>
+        </ul>
+
+        <h4 class="titulo-texto">Vaga Social</h4>
+        <p>
+            O delegado que pleitear uma vaga social será isento das taxas de
+            inscrição e preencherá para vagas
+            individuais. Para isso,
+            o delegado precisará preencher o formulário ”Vagas Sociais” e nos
+            enviar para o e-mail
+            <a href="mailto:uspmun@usp.br">uspmun@usp.br</a> até o dia 05 de
+            Setembro de 2018. O delegado receberá
+            no dia 11 de Setembro um e-mail do secretariado
+            informando sobre a situação de sua inscrição.
+        </p>
+        <ul style="user-select: none">
+            <li><strong>Inscrição Promocional:</strong> Não Disponível</li>
+            <li><strong>(Esgotada)</strong> Inscrição Regular: Gratuita</li>
+            <li><strong>Inscrição de Espera:</strong> Não Disponível</li>
+        </ul>
+    </div>
+</section>
+
+<hr />
+
+<section>
+    <div class="container">
+        <h3 class="titulo-texto">{{ inscricao.nome | upcase }}</h3>
+        <h4 class="titulo-texto">1ª Etapa</h4>
+        <p>
+            O chefe de delegação irá preencher o formulário
+            “{{ inscricao.nome }}” que inclui preencher o nome
+            e o e-mail de cada delegado e escrever um texto de no máximo
+            {{ inscricao.num_caracteres }} caracteres sobre o tema
+            <em>“Desafiando Fronteiras”</em>.
+        </p>
+
+        <h4 class="titulo-texto">2ª Etapa</h4>
+        <p>Cada delegado preencherá o formulário “Dados Pessoais”
+            individualmente. Os delegados que escolherem o
+            <strong>comitê de imprensa</strong> como uma opção, deverão
+            submeter um <strong>artigo de opinião</strong> sobre
+            <em>
+                “acirramento da polarização política e ascensão dos partidos
+                extremistas”
+            </em>.
+        </p>
+        <p>
+            <a href="/assets/documents/imprensa.pdf" download>
+                Detalhes da Application
+            </a>
+        </p>
+        <p>
+            <strong>Obs:</strong> Só serão aceitos formulários enviados até o dia
+            {{ inscricao.data_envio_formulario }}.
+        </p>
+
+        <h4 class="titulo-texto">3ª Etapa</h4>
+        <p>Um e-mail avisando se a delegação recebeu ou não as vagas
+            pretendidas será enviado ao chefe de delegação
+            {{ inscricao.data_email_vagas }}, juntamente do boleto de
+            pagamento das inscrições. O boleto deve ser pago
+            {{ inscricao.data_pagamento_boleto }} e é necessário que
+            o comprovante de pagamento seja enviado para o e-mail
+            <a href="mailto:uspmun@usp.br" class="link_email">uspmun@usp.br</a>
+            assim que pago.
+        </p>
+
+        <h4 class="titulo-texto">4ª Etapa</h4>
+        <p>
+            No dia {{ inscricao.data_email_pagamento }} o secretariado
+            enviará um e-mail para o chefe de delegação avisando se o pagamento
+            foi confirmado ou não. Caso confirmado, cada delegado receberá sua
+            representação através do e-mail e o chefe de delegação receberá as
+            representações de todos os delegados.
+        </p>
+
+        <p>
+            <strong>Obs:</strong> É permitido se inscrever nas 3 etapas de 
+            inscrição (Early, Regular e Late)!!! Se você não conseguiu a vaga
+            de primeira, você pode tentar de novo!
+        </p>
+    </div>
+
+    <div class="container center">
+        <div class="text-center button-area">
+            <button class="btn btn-info btn-lg" disabled="disabled">Encerrada</button>
+        </div>
+    </div>
+</section>
