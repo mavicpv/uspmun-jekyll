@@ -1,0 +1,69 @@
+---
+layout: shell
+---
+
+{{ content }}
+
+{% assign comite = site.data.comites | where: 'id', page.comite | first %}
+
+{% assign diretores = site.data.diretores | where: 'comite', page.comite %}
+
+<div class="cover">
+    <img src="/assets/images/cidade_de_sampa-azul_1920.jpg">
+</div>
+
+<section class="primeiro page-title-area">
+    <div class="text-center page-title">
+        <h1>{{ comite.nome | upcase }} </h1>
+    </div>
+    <section class="text-center page-subtitle">
+        <h3>
+            <em> {{ comite.subtitulo[0] }} </em>
+            {{ comite.subtitulo[1] }}
+        </h3>
+    </section>
+
+    <hr />
+</section>
+
+<section>
+    <div class="container" id="comite-content">
+        <h2 class="titulo-texto">SOBRE O COMITÊ E O TEMA</h2>
+        {%for paragrafo in comite.paragrafos %}
+        <p> {{ paragrafo }} </p>
+        {% endfor %}
+        <div class="container center">
+            <div class="text-center button-area">
+                <a href="{{ comite.url_guia_estudos }}" class="btn btn-info btn-lg">
+                    Guia de Estudos
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr>
+
+<section>
+    <div class="container">
+        <h2 class="center">DIRETORES</h2>
+        <div class="row diretors-comitee">
+            {%for diretor in diretores %}
+            <div class="col-md-4 center">
+                <h4 class="nomeSecretario"> {{ diretor.nome }} </h4>
+                <h6 class="cargoSecretario"> - {{ diretor.cargo }} </h6>
+                {%for paragrafo in diretor.descricao %}
+                <p> {{ paragrafo }} </p>
+                {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    </div>
+
+    <div class="container center">
+        <div class="text-center button-area">
+            <a href="/secretariado.html" class="btn btn-info btn-lg">Conheça o Secretariado</a>
+        </div>
+    </div>
+</section>

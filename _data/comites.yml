@@ -1,0 +1,206 @@
+- id: "unsc"
+  nome: "UNSC"
+  link: "/comites/unsc.html"
+  img_src: "/assets/images/simbolo-unsc_branco.png"
+  url_guia_estudos: "/assets/documents/UNSC.pdf"
+  subtitulo:
+    - "Fighting a faceless ghost:"
+    - "The efforts against the arising terrorist threat"
+  resumo: "The United Nation's Security Council (UNSC) tackles the new threat of the 
+    XXI century: modern terrorism in a globalized world. To discuss such matter, 
+    it will be necessary to go to the roots of the word itself, analyzing it's 
+    history do discover what is terrorism in the modern world, after its long 
+    history."
+  paragrafos:
+    - "The United Nation's Security Council (UNSC) tackles the new threat of the
+      XXI century: modern terrorism in a globalized world. To discuss such matter,
+      it will be necessary to go to the roots of the word itself, analyzing it's
+      history do discover what is terrorism in the modern world, after its long
+      history."
+    - "The system of debate of this committee will follow the pattern of other
+      Model UN in São Paulo, with some changes in order to reflect better the
+      reality of the UNSC."
+    - "After determining what terrorism is to the UNSC, the next order of
+      business shall be to formulate general strategies to prevent, combat and
+      attenuate terrorist movements (in accordance to the committee definition of
+      what is that)."
+
+- id: "prb"
+  nome: "PRB"
+  link: "/comites/prb.html"
+  img_src: "/assets/images/simbolo-prb_branco.png"
+  url_guia_estudos: "/assets/documents/PRB.pdf"
+  subtitulo:
+    - "A matter of dignity:"
+    - "Mohamedou Ould Slahi’s Case"
+  resumo: "Mohamedou Ould Slahi - author of the book \"Guantanamo Diary\" - was part
+    of Al Qaeda in its early days when the organization had gathered to withdraw
+    an authoritarian representative. Salahi followed his life after the movement
+    changed its guidelines, but was arrested in the late twentieth century, and
+    again after the 2001 attacks, by keeping in touch with friends, members of Al
+    Qaeda, then a terrorist group."
+  paragrafos:
+    - "When Robert Hooke looked through his microscope, he found several tiny 
+      boxes, each as a structure that strengthened and formed something bigger, 
+      more organized. These cells were given the name of cells, because of 
+      their resemblance to the shape of the prison cells. But would the 
+      comparison end there? In a prison, we have in each cell a history, an 
+      organization, a human being with its own DNA, which has a function in 
+      society. The union of these various cells can be called the prison tissue, 
+      which has functions in a larger organ called society. When a tissue fails 
+      in its function, we have the organ damage, and this is what this 
+      committee will propose to discuss: the analysis of a case that covers a 
+      whole problematic of the real functioning of one of the most important 
+      prisoners of today, the Guantanamo prison."
+    - "Mohamedou Ould Slahi - author of the book \"Guantanamo Diary\" - was 
+      part of Al Qaeda in its early days when the organization had gathered to 
+      withdraw an authoritarian representative. Salahi followed his life after 
+      the movement changed its guidelines, but was arrested in the late 
+      twentieth century, and again after the 2001 attacks, by keeping in touch 
+      with friends, members of Al Qaeda, then a terrorist group."
+    - "To maintain the likelihood, your directors will work alongside Mohamedou, 
+      who supported the creation of this committee. So, with the history and 
+      evidence we will provide to our delegates, representatives of a non-legal 
+      organization - the Periodic Review Board, created by the United States 
+      Home Affairs Bureau - they are to examine whether or not a security 
+      breach occurred, which justified or not the loss of individual freedoms, 
+      morally and physically damaging the organ called society."
+
+- id: "embraer"
+  nome: "Embraer"
+  link: /comites/embraer.html
+  img_src: /assets/images/simbolo-embraer_branco.png
+  url_guia_estudos: "/assets/documents/Embraer.pdf"
+  subtitulo:
+    - "Apertem o cinto, privatizaram a Embraer:"
+    - "Negociações de venda da maior empresa aeronáutica da América Latina"
+  resumo: "Neste comitê, os delegados terão de lidar com os principais desafios da 
+    privatização e agir da melhor maneira possível para os interesses da empresa 
+    - considerando obstáculos judiciais, estratégicos e econômicos que seriam 
+    vitais para a sobrevivência da Embraer em um setor fortemente competitivo e 
+    sedento por inovação. O estabelecimento de diretrizes positivas para o 
+    sucesso futuro da companhia será o principal objetivo, decidindo o quão 
+    disposto o governo brasileiro está em compartilhar deste tesouro nacional com 
+    o mundo."
+  paragrafos:
+    - "Os anos 90 trouxeram grandes mudanças à economia brasileira, e as 
+      empresas estabelecidas no país entraram no jogo para sobreviver às 
+      dificuldades econômicas. Gigante do mercado aeronáutico internacional."
+    - "Forte e consolidada no mercado mundial, a empresa se estabeleceu ao 
+      longo das décadas como uma empreitada de sucesso do Estado brasileiro. No 
+      entanto, a conjuntura política e econômica do Brasil trouxe à tona uma 
+      possibilidade para alavancar o potencial da Embraer: o fim do controle 
+      estatal em favor da privatização de suas atividades."
+    - "No USPMUN, os delegados representantes deste comitê terão de lidar com 
+      os principais desafios da privatização e agir da melhor maneira possível 
+      para os interesses da empresa - , considerando obstáculos judiciais, 
+      estratégicos e econômicos que seriam vitais para a sobrevivência da 
+      Embraer em um setor fortemente competitivo e sedento por inovação. 
+      permearam a questão, O estabelecimento de visando sucedê-la, 
+      estabelecendo diretrizes positivas para o sucesso futuro da companhia 
+      será o principal objetivo, decidindo o quão disposto o governo brasileiro 
+      está em compartilhar deste tesouro nacional com o mundo."
+    - "Neste comitê, os delegados terão de lidar com os principais desafios da 
+      privatização e agir da melhor maneira possível para os interesses da 
+      empresa - considerando obstáculos judiciais, estratégicos e econômicos 
+      que seriam vitais para a sobrevivência da Embraer em um setor fortemente 
+      competitivo e sedento por inovação. O estabelecimento de diretrizes 
+      positivas para o sucesso futuro da companhia será o principal objetivo, 
+      decidindo o quão disposto o governo brasileiro está em compartilhar deste 
+      tesouro nacional com o mundo."
+
+- id: "ce"
+  nome: "CE"
+  link: /comites/ce.html
+  img_src: /assets/images/simbolo-ce_branco.png
+  url_guia_estudos: "/assets/documents/CE.pdf"
+  subtitulo:
+    - "Xeque-mate do Artigo 50:"
+    - "O futuro das relações econômicas pós-Brexit e a questão da fronteira 
+      entre as Irlandas"
+  resumo: "O Comitê busca, por meio de discussões entre os delegados, buscar 
+    resoluções que possam guiar as negociações de saída do Reino Unido, 
+    priorizando os temas da futura relação econômica entre os atores e a 
+    questão da fronteira entre as Irlandas."
+  paragrafos:
+    - "Em 23 de Junho de 2016 a população britânica decidiu, em um histórico 
+      referendo, por separar seu país do maior bloco político-econômico de 
+      Estados já formado - a União Europeia."
+    - "Contudo, a separação não é uma atitude simples de ser tomada. As 
+      realidades político-econômicas do Reino Unido e da União Europeia se 
+      encontram profundamente interligadas após décadas de União."
+    - "A saída britânica do bloco europeu envolve, portanto, uma série de 
+      negociações para decidir sobre os mais diversos assuntos, desde o futuro 
+      das relações entre os dois entes, passando pela realocação de instituições 
+      do bloco instaladas nas Ilhas Britânicas, até a situação dos cidadãos 
+      europeus residentes no país e os cidadãos britânicos residentes na Europa 
+      Continental."
+    - "O Comitê busca, por meio de discussões entre os delegados, buscar 
+      resoluções que possam guiar as negociações de saída do Reino Unido, 
+      priorizando os temas da futura relação econômica entre os atores e a 
+      questão da fronteira entre as Irlandas."
+
+- id: "oea"
+  nome: OEA
+  link: /comites/oea.html
+  img_src: /assets/images/simbolo-oea_branco.png
+  url_guia_estudos: "/assets/documents/OEA.pdf"
+  subtitulo:
+    - "Una nación, múltiples problemas:"
+    - "A crise migratória da Venezuela e as discussões sobre a suspensão da 
+      República Bolivariana da Venezuela"
+  resumo: "O comitê tratará sobre a questão da crise imigratória que atualmente 
+    atinge a Venezuela, com milhares de venezuelanos deixando o país por mês. 
+    A nação vive um cenário sem perspectivas, onde o governo cortou programas 
+    sociais, a inflação nas alturas e rotina de escassez de alimentos e 
+    medicamentos. As discussões a respeito de suspender a República Bolivariana 
+    da Venezuela de sua posição na OEA também entrarão em pauta, pelos indícios 
+    de infração de direitos humanos e regras do órgão. As tarefas no comitê são 
+    muitas e variadas, cabendo aos delegados encaminhar medidas que possam 
+    cessar a tensão diplomática e instabilidade imigratória."
+  paragrafos: 
+    - "A Organização dos Estados Americanos é o principal órgão para integração 
+      continental nas Américas. Ela integra todos os países independentes do 
+      território americano e toma decisões de caráter recomendatório. Hoje, a 
+      OEA congrega os 35 Estados independentes das Américas e constitui o 
+      principal fórum governamental político, jurídico e social do Hemisfério. 
+      Fundada em 1948, ela comemora, este ano, seu octagésimo aniversário. A 
+      Organização foi criada para alcançar nos Estados membros, como estipula o 
+      Artigo 1º da Carta, \"uma ordem de paz e de justiça, para promover sua 
+      solidariedade, intensificar sua colaboração e defender sua soberania, sua 
+      integridade territorial e sua independência\"."
+    - "O comitê tratará sobre a questão da crise imigratória que atualmente 
+      atinge a Venezuela, com milhares de venezuelanos deixando o país por mês. 
+      A nação vive um cenário sem perspectivas, onde o governo cortou programas 
+      sociais, a inflação nas alturas e rotina de escassez de alimentos e 
+      medicamentos. As discussões a respeito de suspender a República 
+      Bolivariana da Venezuela de sua posição na OEA também entrarão em pauta, 
+      pelos indícios de infração de direitos humanos e regras do órgão. As 
+      tarefas no comitê são muitas e variadas, cabendo aos delegados encaminhar 
+      medidas que possam cessar a tensão diplomática e instabilidade imigratória."
+
+- id: "imprensa"
+  nome: Imprensa
+  link: /comites/imprensa.html
+  img_src: /assets/images/simbolo-imprensa_branco.png
+  url_guia_estudos: "/assets/documents/Imprensa.pdf"
+  subtitulo:
+    - "Jornalismo até no Twitter:"
+    - "Mídia na era digital"
+  resumo: "O comitê “Jornalismo até no Twitter: Mídia na Era Digital” vem para cobrir 
+    todo o evento USPMUN e presentear os delegados com quatro dias sendo 
+    jornalistas que trabalham para grandes jornais: o The New York Times, o The 
+    Guardian e como não poderia faltar, o Nexo Jornal."
+  paragrafos: 
+    - "O comitê “Jornalismo até no Twitter: Mídia na Era Digital” vem para 
+      cobrir todo o evento USPMUN e presentear os delegados com quatro dias 
+      sendo jornalistas que trabalham para grandes jornais: o The New York 
+      Times, o The Guardian e como não poderia faltar, o Nexo Jornal."
+    - "Dentre os dias de simulação, os delegados se dividirão para cobrir os 
+      cinco comitês de debate, lembrando que comitês em inglês terão sua 
+      cobertura feita exclusivamente na língua estrangeira. Serão produzidos 
+      todos os dias: um texto sobre a situação do comitê, uma nota sobre alguma 
+      situação inédita do comitê e algum outro texto de gênero livre."
+    - "A Imprensa também conta com outras atividades especiais que serão 
+      realizadas pelos próprios jornalistas: uma coletiva de imprensa com cada 
+      comitê e a produção de um telejornal!"
